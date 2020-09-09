@@ -2,7 +2,7 @@ package Week1;
 
 import java.util.Scanner;
 
-public class Wallet extends Gateways {
+public class Wallet extends Gateways implements WorkingOfGateway {
 	public void InputDetails(Gateways obj) {
 		Scanner s=new Scanner(System.in);
 		System.out.println("Enter your Bank Name");
